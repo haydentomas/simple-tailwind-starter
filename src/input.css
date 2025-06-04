@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-chocolate: #86563c;
+}
+
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
